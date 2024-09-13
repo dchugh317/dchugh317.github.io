@@ -1,0 +1,478 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.menu{
+    padding-left: 90px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 450;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 160px;
+    margin-bottom: 20px;
+    
+}
+
+
+.navbar {
+    display: flex;               
+    justify-content: space-between;
+    margin-right: 280px;    
+}            
+
+.nav-links {
+    flex:1;
+    text-align: right;
+    margin-top: -70px;
+    }
+.header{
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 8px;
+           
+}
+
+.nav-links ul li a{
+ text-decoration: none;
+ color: rgb(203,203,203);
+ font-size: 15px;
+ font-family: "Roboto", sans-serif;
+ font-weight: 400;
+
+ 
+}
+.nav-links ul li a:hover {
+    color: black; 
+}
+.content{
+    position: relative;
+    width: 1600px;
+    overflow: hidden;
+}
+.lawyer img{
+    width: 1600px;
+    margin-bottom: -150px;
+    object-fit: cover;
+}
+
+.forms{
+    position: absolute;
+    top: 140px; 
+    left: 260px; 
+    background-color:rgb(12,60,94);
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 20px;
+    color: white;
+    width: 320px; 
+    text-align: left;
+}
+
+
+
+p.text1 {
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+  
+}
+
+p.text2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+p.text3{
+    margin-bottom: 40px;
+    font-size: 14px;
+    color: rgb(255,215,0);
+    font-style: italic;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+}
+
+
+
+
+input[type="email"] {
+    width: 270px;
+    padding: 15px;
+    font-size: 14px;
+    border: none;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 150px;
+    margin-top: 14px;
+    height: 45px;
+    background-color: rgb(251,221,51);
+    border: none;
+    color: black;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    background-size: 1600px;
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-left: 100px;
+    position:fixed;
+    padding-right: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    
+    
+}
+
+
+.feature1 {
+    width: 330px;
+    text-align: left;
+    
+}
+
+p.feature2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 450;
+}
+
+p.feature3{
+    font-size: 13px;
+    line-height: 1.6;
+    color: rgb(150,150,150);
+    font-family: "Roboto", sans-serif;
+    font-weight: 420;
+}
+
+
+.content1{
+ width: 1600px;
+ margin-bottom: -170px;
+}
+
+
+.content2 {
+    position: relative;
+    top: 0px; 
+    left: 0px; 
+    background-color: rgb(244, 244, 244);
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 30px;
+    color: black;
+    height: 240px;
+    max-width: 1600px; 
+    text-align: center;
+    z-index: 10;
+}
+
+
+
+.content4{
+
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 450;
+}
+
+.content3{
+    align-items: center;
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: rgb(128,128,128);
+    
+}
+
+.child{
+    font-weight: 800;
+    color: black;
+}
+
+
+
+.content5 {
+    position: relative;
+    top: 0;
+    left: 0px;
+    background-size: cover;
+    max-width: 1600px;
+    height: 800px;
+    padding-right: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    z-index: 10;
+}
+
+
+.content5::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('images/glasses.png'); 
+    background-attachment: fixed;
+    background-size: 1600px;
+    background-position: 0 -80px;
+    height: 1500px;
+    max-width: 1600px;
+    filter: grayscale(1);
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+}
+
+.content5::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(240,240,240,0.7);
+    z-index: 1;
+}
+
+
+.content6{
+    
+   
+    padding-right: 30px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    margin-top: 240px;
+    color:black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    z-index: 2;
+    
+}
+
+
+.content7{
+    
+    font-size: 15px;
+    padding-right: 30px;
+    margin-bottom: 80px;
+    margin-top: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color:gray;
+    z-index:2;
+    
+}
+
+.content8 {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    margin-left: 15px;
+    margin-bottom: 80px;
+    
+    
+    
+}
+
+.plan {
+    background-color: white;
+    border: none;
+    height: 500px;
+    padding: 20px;
+    width: 300px;
+    z-index: 2;
+    margin-bottom: 200px;
+    background-image: repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.05) 0px, rgba(0, 0, 0, 0.05) 1px, transparent 1px, transparent 20px), 
+    repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.05) 0px, rgba(0, 0, 0, 0.05) 1px, transparent 1px, transparent 20px), 
+    repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.05) 0px, rgba(0, 0, 0, 0.05) 1px, transparent 1px, transparent 20px), 
+    repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.05) 0px, rgba(0, 0, 0, 0.05) 1px, transparent 1px, transparent 20px); 
+
+}
+
+h2 {
+    margin-top: 85px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 450;
+    z-index: 3;
+}
+
+
+
+ul {
+    list-style-type: none;
+    
+}
+
+li {
+    margin: 10px 0;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    z-index: 3;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    margin-top: 40px;
+    z-index: 3;
+}
+
+.duration {
+    font-size: 25px;
+    margin-top: 1px;
+    margin-bottom: 8px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    z-index: 3;
+}
+
+.btn {
+    background-color: rgb(12,60,94);
+    color: white;
+    height: 50px;
+    padding: 10px 20px;
+    border: none;
+   
+   
+}
+
+.content9 {
+    background-image: url(images/notebook.jpg); 
+    width: 1600px;
+    height: 500px;
+    background-size: cover; 
+    background-position: center;
+    position: relative;
+}
+
+.content9::before {
+    content: ""; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(13,51,77,0.8); 
+    z-index: 1; 
+}
+
+.content11{
+
+    color: white;
+    text-align: center;
+    z-index: 2;
+    direction: flex;
+    justify-content: center;
+    font-size: 30px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 450;
+    padding-top: 175px;
+    
+}
+
+.content12{
+
+    color: white;
+    text-align: center;
+    z-index: 2;
+    font-size: 15px;
+    position: relative;
+    padding-top: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+
+
+.content13 {
+    background-color: rgb(255, 223, 0);
+    color: black;
+    margin-left: 720px;
+    margin-top: 35px;
+    width: 180px;
+    border: none;
+    z-index: 2;
+    position: relative;
+}
+
+
+.footer-content {
+    max-width: 1600px;
+    background-color: rgb(29, 37, 48);
+    text-align: center;
+    color: #e0e0e0;
+    height: 300px;
+   
+}
+
+p.footer1 {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding-top: 80px;
+}
+
+p.footer2 {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+    
+}
+
+.socials img {
+    width: 40px;
+    height: 40px;
+    filter: brightness(0) invert(1); 
+}
+
+.elements{
+    font-size: 35px;
+}
+p.element{
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
